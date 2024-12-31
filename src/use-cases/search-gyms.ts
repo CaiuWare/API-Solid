@@ -10,7 +10,7 @@ interface SearchGymUseCaseResponse {
   gyms: Gym[]
 }
 
-export class SearchGymUseCase {
+export class SearchGymsUseCase {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   constructor(private gymsRepository: GymsRepository) {}
 
